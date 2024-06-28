@@ -10,7 +10,8 @@ def main():
     # Do not delete the return statement
     ########################################
     for i in range(5):
-       input("Enter an integer:")
+       num = int(input("Enter an integer:"))
+       print(num)
     return total
 
 
