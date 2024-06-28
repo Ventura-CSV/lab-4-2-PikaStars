@@ -11,7 +11,10 @@ def main():
     ########################################
     for i in range(5):
        num = int(input("Enter an integer:"))
-       print(num)
+       total = total + num
+       
+       
+    print(total) 
     return total
 
 
